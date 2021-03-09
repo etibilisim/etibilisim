@@ -1,0 +1,29 @@
+uuid: 5e5cfe93-456c-4691-8376-a2f75283f501
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_proje_turu
+    - node.type.proje
+    - taxonomy.vocabulary.proje_turleri
+id: node.proje.field_proje_turu
+field_name: field_proje_turu
+entity_type: node
+bundle: proje
+label: 'Proje Türü'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      proje_turleri: proje_turleri
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

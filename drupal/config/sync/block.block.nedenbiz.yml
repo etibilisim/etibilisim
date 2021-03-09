@@ -1,0 +1,31 @@
+uuid: d2cdb85d-a281-4e76-957e-56e9389b3ea8
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6f3d3b0f-1283-4985-93b7-5f2a36882378'
+  module:
+    - block_content
+    - system
+  theme:
+    - zuvi
+id: nedenbiz
+theme: zuvi
+region: content_bottom
+weight: -8
+provider: null
+plugin: 'block_content:6f3d3b0f-1283-4985-93b7-5f2a36882378'
+settings:
+  id: 'block_content:6f3d3b0f-1283-4985-93b7-5f2a36882378'
+  label: 'Neden Biz'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

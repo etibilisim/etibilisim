@@ -1,0 +1,22 @@
+uuid: cfd74036-6c9a-4d78-aa10-edb51756803b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zuvi
+_core:
+  default_config_hash: XdD9sepXYD_vDiC5cxDAgLJl-GrWyymzBbFuvqeymm0
+id: zuvi_messages
+theme: zuvi
+region: highlighted
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

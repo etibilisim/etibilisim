@@ -1,0 +1,21 @@
+uuid: 1e9b39d5-37d3-4698-83d5-145b260e07a7
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hizmet_ikon
+    - node.type.hizmet
+  module:
+    - fontawesome
+id: node.hizmet.field_hizmet_ikon
+field_name: field_hizmet_ikon
+entity_type: node
+bundle: hizmet
+label: 'Hizmet İkon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

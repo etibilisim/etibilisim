@@ -1,0 +1,40 @@
+all_icons_show: 1
+facebook_url: 'https://www.facebook.com/etibilisim'
+twitter_url: ''
+instagram_url: 'https://www.instagram.com/etibilisim'
+linkedin_url: 'https://www.linkedin.com/company/etibili%C5%9Fim/'
+youtube_url: ''
+vimeo_url: ''
+telegram_url: ''
+whatsapp_url: 'https://web.whatsapp.com/'
+github_url: ''
+vk_url: ''
+circle_type: circle_border
+slider_show: 1
+slider_code: "<li>\r\n  <h2>Yaratıcı ve Duyarlı <em>Web Tasarım</em></h2>\r\n  <p>Her ekran boyutuna göre tasarlanan websiteleri ile ziyaretçilerinize kullanım kolaylığı sağlıyoruz.</p>\r\n  <a class=\"button-link\" href=\"bize-ulasin\">Bize ulaşın</a>\r\n</li>\r\n<li>\r\n  <h2><em>Eti Bilişim</em>Teknoloji ve Medya Danışmanlığı</h2>\r\n  <p>Bilişim uygarlıktır...</p>\r\n  <a class=\"button-link\" href=\"bize-ulasin\">Bize ulaşın</a>\r\n</li>\r\n<li>\r\n  <h2>Sizler için <em>Muhteşem</em> işler yapıyoruz</h2>\r\n  <p>ETİ BİLİŞİM olarak bizler çözüm ortaklarımızın bu evrende kendilerini en iyi ifade edebilecekleri yaratıcı çözümler üretmeyi öncelikli işimiz olarak görmekteyiz.</p>\r\n  <a class=\"button-link\" href=\"bize-ulasin\">Bize ulaşın</a>\r\n</li>"
+slider_image: {  }
+slider_image_path: ''
+comment_user_pic: 1
+node_author_pic: 0
+node_tags: 0
+font_icon_fontawesome: 0
+font_icon_material: 0
+copyright_text: 1
+scrolltotop_on: 1
+styling: 0
+styling_code: ''
+_core:
+  default_config_hash: bByJIZIvYjRxaygb7JvE8AXoG68A5vo--gyX7CuoiHQ
+langcode: tr
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: false
+  path: 'public://eti-bilisim-logo-yeni-renk.png'
+favicon:
+  use_default: false
+  path: 'public://etifavicon.ico'
+  mimetype: image/vnd.microsoft.icon

@@ -1,0 +1,11 @@
+uuid: 7a3939a3-0ad5-4eed-ad45-bac77e946265
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.proje_turleri
+id: taxonomy_term.proje_turleri
+target_entity_type_id: taxonomy_term
+target_bundle: proje_turleri
+default_langcode: site_default
+language_alterable: false

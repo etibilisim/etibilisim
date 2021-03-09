@@ -1,0 +1,17 @@
+uuid: ba1c6cbe-f982-43b7-80e6-99a826245c88
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Proje
+type: proje
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

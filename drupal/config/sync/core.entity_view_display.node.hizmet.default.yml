@@ -1,0 +1,46 @@
+uuid: 221a0a70-6678-4754-b294-c1a82a741e1f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.hizmet.body
+    - field.field.node.hizmet.field_hizmet_gorsel
+    - field.field.node.hizmet.field_hizmet_ikon
+    - field.field.node.hizmet.field_hizmet_sira_no
+    - field.field.node.hizmet.field_hizmet_tanim
+    - node.type.hizmet
+  module:
+    - image
+    - text
+    - user
+id: node.hizmet.default
+targetEntityType: node
+bundle: hizmet
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_hizmet_gorsel:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_hizmet_ikon: true
+  field_hizmet_sira_no: true
+  field_hizmet_tanim: true
+  langcode: true

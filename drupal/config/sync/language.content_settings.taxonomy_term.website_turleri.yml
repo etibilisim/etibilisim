@@ -1,0 +1,11 @@
+uuid: 6864e46a-26b7-494f-8c57-37676444eea7
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.website_turleri
+id: taxonomy_term.website_turleri
+target_entity_type_id: taxonomy_term
+target_bundle: website_turleri
+default_langcode: site_default
+language_alterable: false

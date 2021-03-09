@@ -1,0 +1,12 @@
+uuid: fba12056-df65-4c93-b9ff-8623241ec2f0
+langcode: tr
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
+id: taxonomy_term.full
+label: 'Sınıflandırma (taksonomi) terimleri sayfası'
+targetEntityType: taxonomy_term
+cache: true

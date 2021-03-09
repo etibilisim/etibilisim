@@ -1,0 +1,31 @@
+uuid: 322bbced-62fd-4404-9973-5cec6ffc6ac6
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dfd8a073-b60a-45bf-8798-7c02035f8f5b'
+  module:
+    - block_content
+    - system
+  theme:
+    - zuvi
+id: iletisimbilgileri
+theme: zuvi
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:dfd8a073-b60a-45bf-8798-7c02035f8f5b'
+settings:
+  id: 'block_content:dfd8a073-b60a-45bf-8798-7c02035f8f5b'
+  label: 'İletişim Bilgileri'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /bize-ulasin
+    negate: false
+    context_mapping: {  }

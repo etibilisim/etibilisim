@@ -1,0 +1,31 @@
+uuid: 9880d3c9-3a73-4a90-8f2e-1a1fa3c7c63d
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0806f287-2780-409b-b5a9-cd1158183a0a'
+  module:
+    - block_content
+    - system
+  theme:
+    - zuvi
+id: onecikanozellikler
+theme: zuvi
+region: content_bottom
+weight: -7
+provider: null
+plugin: 'block_content:0806f287-2780-409b-b5a9-cd1158183a0a'
+settings:
+  id: 'block_content:0806f287-2780-409b-b5a9-cd1158183a0a'
+  label: 'Öne Çıkan Özellikler'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,12 @@
+uuid: bce7648a-ec56-41f0-9bc1-4feb85cf1b26
+langcode: tr
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
+id: user.full
+label: 'Kullanıcı hesabı'
+targetEntityType: user
+cache: true

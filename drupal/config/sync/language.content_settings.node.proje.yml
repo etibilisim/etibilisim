@@ -1,0 +1,11 @@
+uuid: ccddde8b-9298-42ef-bd88-4a0178eb683d
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.proje
+id: node.proje
+target_entity_type_id: node
+target_bundle: proje
+default_langcode: site_default
+language_alterable: false

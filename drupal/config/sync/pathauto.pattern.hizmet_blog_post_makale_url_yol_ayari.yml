@@ -1,0 +1,25 @@
+uuid: 39a0a189-0a12-4d78-af31-9f83565095cc
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: hizmet_blog_post_makale_url_yol_ayari
+label: 'Hizmet, blog post, makale, proje URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  d79b8cd3-c0f3-4bf1-8d3d-f65ccffdd61e:
+    id: node_type
+    bundles:
+      article: article
+      blog_post: blog_post
+      hizmet: hizmet
+      proje: proje
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d79b8cd3-c0f3-4bf1-8d3d-f65ccffdd61e
+selection_logic: and
+weight: -5
+relationships: {  }

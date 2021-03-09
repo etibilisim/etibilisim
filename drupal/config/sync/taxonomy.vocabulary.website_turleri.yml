@@ -1,0 +1,8 @@
+uuid: c32f5543-a08e-4397-8c0e-dcf2a71eac05
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Website Türleri'
+vid: website_turleri
+description: ''
+weight: 0

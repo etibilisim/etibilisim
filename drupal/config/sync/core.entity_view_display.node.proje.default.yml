@@ -1,0 +1,236 @@
+uuid: a115335b-d9e0-4584-a12e-8c39ed01474c
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.proje.body
+    - field.field.node.proje.field_baglanti_adresi
+    - field.field.node.proje.field_one_cikan_gorsel
+    - field.field.node.proje.field_proje_album
+    - field.field.node.proje.field_proje_turu
+    - field.field.node.proje.field_website_turu
+    - node.type.proje
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - link
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: 'Proje Üst'
+          column_widths: 50-50
+        components:
+          8589bbae-442f-451b-a1b3-39e9074afb9d:
+            uuid: 8589bbae-442f-451b-a1b3-39e9074afb9d
+            region: first
+            configuration:
+              id: 'field_block:node:proje:field_one_cikan_gorsel'
+              label: 'Öne Çıkan Görsel'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: image
+                settings:
+                  image_style: one_cikan_gorsel_800x500
+                  image_link: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 1
+          887bced0-7d51-4bee-b9cf-7f969ba7419b:
+            uuid: 887bced0-7d51-4bee-b9cf-7f969ba7419b
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:proje:links'
+            additional: {  }
+            weight: 0
+          0b371a1d-a5a3-42db-9c47-6fafc16f3e81:
+            uuid: 0b371a1d-a5a3-42db-9c47-6fafc16f3e81
+            region: second
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:proje:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 2
+          3fe7f1f7-b03d-4f88-9d96-97e9a36a3c87:
+            uuid: 3fe7f1f7-b03d-4f88-9d96-97e9a36a3c87
+            region: second
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:proje:field_proje_turu'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 0
+          a87f1d8b-d983-4239-b92d-dc01570cca64:
+            uuid: a87f1d8b-d983-4239-b92d-dc01570cca64
+            region: second
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:proje:field_website_turu'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 1
+          41a4a819-dcdd-48dd-b50a-61bf2454ae11:
+            uuid: 41a4a819-dcdd-48dd-b50a-61bf2454ae11
+            region: second
+            configuration:
+              id: 'field_block:node:proje:field_baglanti_adresi'
+              label: 'Bağlantı Adresi'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: link
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: nofollow
+                  target: _blank
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 3
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Proje Alt'
+        components:
+          5d3deb0d-0c53-4ecd-a77d-7bfa22e67a67:
+            uuid: 5d3deb0d-0c53-4ecd-a77d-7bfa22e67a67
+            region: content
+            configuration:
+              id: 'field_block:node:proje:field_proje_album'
+              label: 'Proje Albüm'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: visually_hidden
+                type: blazy
+                settings:
+                  style: ''
+                  background: false
+                  caption:
+                    title: '0'
+                    alt: '0'
+                  image_style: sayfa_ici_album_kare_300x300
+                  thumbnail_style: ''
+                  media_switch: colorbox
+                  ratio: ''
+                  box_style: ''
+                  box_caption: entity_title
+                  box_caption_custom: ''
+                  grid: 3
+                  grid_medium: 3
+                  grid_small: 3
+                  current_view_mode: _custom
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+id: node.proje.default
+targetEntityType: node
+bundle: proje
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_baglanti_adresi:
+    weight: 106
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: first
+  field_one_cikan_gorsel:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_proje_album:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: first
+  field_proje_turu:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_website_turu:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

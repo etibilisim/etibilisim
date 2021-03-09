@@ -1,0 +1,19 @@
+uuid: ed6d92f2-ecf1-449f-bfe7-98191a104135
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hizmet_tanim
+    - node.type.hizmet
+id: node.hizmet.field_hizmet_tanim
+field_name: field_hizmet_tanim
+entity_type: node
+bundle: hizmet
+label: 'Hizmet Tanım'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

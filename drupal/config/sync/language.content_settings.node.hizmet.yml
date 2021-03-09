@@ -1,0 +1,11 @@
+uuid: 422771fa-fa10-4d9f-b6c4-4a2c052aa122
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.hizmet
+id: node.hizmet
+target_entity_type_id: node
+target_bundle: hizmet
+default_langcode: site_default
+language_alterable: false

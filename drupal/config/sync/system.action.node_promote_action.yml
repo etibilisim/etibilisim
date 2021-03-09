@@ -1,0 +1,13 @@
+uuid: 5463760d-3b4a-4f2b-9d20-c432b03ed6c0
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
+id: node_promote_action
+label: 'İçeriği ana sayfaya yükselt'
+type: node
+plugin: node_promote_action
+configuration: {  }

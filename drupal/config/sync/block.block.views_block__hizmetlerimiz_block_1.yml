@@ -1,0 +1,30 @@
+uuid: 65c36f49-6935-44af-b846-18208613e682
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.hizmetlerimiz
+  module:
+    - system
+    - views
+  theme:
+    - zuvi
+id: views_block__hizmetlerimiz_block_1
+theme: zuvi
+region: content_top
+weight: -8
+provider: null
+plugin: 'views_block:hizmetlerimiz-block_1'
+settings:
+  id: 'views_block:hizmetlerimiz-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

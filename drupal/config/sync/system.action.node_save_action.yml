@@ -1,0 +1,13 @@
+uuid: f2564895-5faa-48de-86fb-ed2115581690
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 'İçeriği kaydet'
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

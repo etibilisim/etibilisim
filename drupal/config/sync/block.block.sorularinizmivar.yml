@@ -1,0 +1,31 @@
+uuid: 8382a55b-9952-4a22-9334-aa9abbf64b62
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:82807b04-8a3a-4a31-98c3-322a27919ca4'
+  module:
+    - block_content
+    - system
+  theme:
+    - zuvi
+id: sorularinizmivar
+theme: zuvi
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:82807b04-8a3a-4a31-98c3-322a27919ca4'
+settings:
+  id: 'block_content:82807b04-8a3a-4a31-98c3-322a27919ca4'
+  label: 'Sorularınız mı var?'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

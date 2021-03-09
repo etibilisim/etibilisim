@@ -1,0 +1,85 @@
+uuid: 3e3dafcb-89b3-4e6f-8177-1dd867028871
+langcode: tr
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: 967ijj7p6i7rwrYl7r08WQFeCY_c23YAh0h8u-w_CXM
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Strike
+            - Superscript
+            - Subscript
+            - '-'
+            - RemoveFormat
+            - FontSize
+            - Font
+        -
+          name: Tools
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - Undo
+            - Redo
+            - Cut
+            - Copy
+            - Paste
+            - PasteText
+            - PasteFromWord
+            - ShowBlocks
+            - Source
+        -
+          name: 'Block Formatting'
+          items:
+            - Outdent
+            - Indent
+            - Format
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+            - DrupalFontAwesome
+            - Table
+            - HorizontalRule
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+    font:
+      font_names: ''
+      font_sizes: ''
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

@@ -1,0 +1,19 @@
+uuid: 5cf90d78-031c-49e5-85d6-5ebcdcd5b2d2
+langcode: tr
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_baglanti_adresi
+field_name: field_baglanti_adresi
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

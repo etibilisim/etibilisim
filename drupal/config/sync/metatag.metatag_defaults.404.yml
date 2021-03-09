@@ -1,0 +1,12 @@
+uuid: 2b8091e3-34e9-4c07-8f54-a1ead91b001f
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: puBstSLDz8mbaWU357zaqQDBGMGsJzG0j-TQNQkjg20
+id: '404'
+label: '404 page not found'
+tags:
+  shortlink: '[site:url]'
+  title: '[site:name] | Ankara Web Tasarım | Website Tasarımı |Bilişim Danışmanlığı'
+  canonical_url: '[site:url]'

@@ -1,0 +1,15 @@
+uuid: 03b3ea57-c821-4be3-8ce3-347b363b9933
+langcode: tr
+status: true
+dependencies: {  }
+name: sayfa_ici_album_kare_300x300
+label: 'Sayfa İçi Albüm Kare 600x600'
+effects:
+  2d6d9f61-a4cd-4191-950c-4fc8d2252f69:
+    uuid: 2d6d9f61-a4cd-4191-950c-4fc8d2252f69
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 600
+      anchor: center-center

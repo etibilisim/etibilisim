@@ -1,0 +1,8 @@
+uuid: 25ef1fda-8458-47a6-8c4d-668e53cb08af
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Proje Türleri'
+vid: proje_turleri
+description: ''
+weight: 0

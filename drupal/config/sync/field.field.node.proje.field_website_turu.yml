@@ -1,0 +1,29 @@
+uuid: 3db79dcf-61f6-457c-98ab-934b861dc23e
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website_turu
+    - node.type.proje
+    - taxonomy.vocabulary.website_turleri
+id: node.proje.field_website_turu
+field_name: field_website_turu
+entity_type: node
+bundle: proje
+label: 'Website Türü'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      website_turleri: website_turleri
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

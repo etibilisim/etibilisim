@@ -1,0 +1,22 @@
+uuid: f16043e1-bf53-4322-bc08-a76fef832492
+langcode: tr
+status: true
+dependencies:
+  theme:
+    - zuvi
+_core:
+  default_config_hash: eskTaHlvVHNwhj2DIR2rhnHJjmrDSffwJJ0dzsQd8Vg
+id: zuvi_local_tasks
+theme: zuvi
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 0026014d-e0d8-434d-8d1b-abf2fe992bce
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: K8qTfK5-87DpwTQBkqhgTMR4P0Zz8Z9aNI7OnMlTb0Q
+id: gender
+label: Cinsiyet
+category: Demographic
+likert: false
+options: "Male: Male\nFemale: Female\n"

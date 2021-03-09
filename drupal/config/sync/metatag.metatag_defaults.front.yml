@@ -1,0 +1,21 @@
+uuid: 39bff820-ac67-4131-b716-d2c9c8c0cd6b
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  google: DNSKzxbCyeWSrsw8QxlrrVt0Fr4Ic4eDlmK44zlJxgw
+  abstract: 'Bilişim ihtiyaçlarınıza en uygun çözümü üretmek için buradayız. Ankara web tasarım, site tasarım şirketi'
+  robots: 'index, follow'
+  shortlink: '[site:url]'
+  title: '[site:name] | Ankara Web Tasarım'
+  canonical_url: '[site:url]'
+  keywords: 'Web tasarım, ankara web tasarım, website tasarımı, ankara site tasarımı'
+  description: "Bilişim ihtiyaçlarınıza en uygun çözümü üretmek için buradayız.\r\nWeb tasarım, web ve bilgisayar programlama, bilişim destek hizmetleri ve bilişim danışmanlığı gibi konularda bilgi almak için bize ulaşın."
+  og_description: 'Bilişim ihtiyaçlarınıza en uygun çözümü üretmek için buradayız. Ankara web tasarım, site tasarım şirketi'
+  og_url: '[site:url]'
+  og_title: '[site:name] | Ankara Web Tasarım | Website Tasarımı |Bilişim Danışmanlığı'
+  og_site_name: '[site:name]'

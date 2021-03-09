@@ -1,0 +1,19 @@
+uuid: 450f7d70-26a9-43fc-8bc6-2ce1746f9d6e
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: 'main:'
+_core:
+  default_config_hash: tpERwuLt-Fkm7y17zCBsgIOWXu5GWhd_eACFI2zG1jY
+name: 'Blog post'
+type: blog_post
+description: 'Çok kullanıcılı bloglar için kullan. Her kullanıcı bir kişisel blog alır.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
