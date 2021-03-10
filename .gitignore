@@ -5,6 +5,8 @@
 /drupal/web/modules/contrib/
 /drupal/web/themes/contrib/
 /drupal/web/profiles/contrib/
+/drupal/web/etifatura
+/drupal/web/laundryprov1
 
 # Ignore sensitive information
 /drupal/web/sites/*/settings.php
